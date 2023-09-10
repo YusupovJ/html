@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML. Lesson 4</title>
+</head>
+
+<body>
+    <h1>HTML формы</h1>
+    <form action="server.php">
+        <label for="name">Обычный инпут</label>
+        <input type="text" name="username" id="name" value="Обычный инпут" />
+        <hr />
+        <input type="password" placeholder="Пароль" name="password" />
+        <hr />
+        <label for="email">Email</label>
+        <input type="email" name="email" />
+        <hr />
+        <input type="date" name="date" />
+        <hr />
+        <input type="color" name="color" />
+        <hr />
+        <input type="file" name="file" />
+        <hr />
+        <label for="number">инпут для чисел</label>
+        <input type="number" id="number" min="5" max="20" />
+        <hr />
+        <hr />
+        <label for="man">Мужчина</label>
+        <input type="radio" name="gender" id="man" />
+        <!--------------------------------->
+        <label for="woman">Женщина</label>
+        <input type="radio" name="gender" id="woman" />
+        <hr />
+        <label for="html">html</label>
+        <input type="checkbox" id="html" />
+        <label for="css">css</label>
+        <input type="checkbox" id="css" />
+        <label for="js">js</label>
+        <input type="checkbox" id="js" />
+        <hr />
+        <select name="" id="">
+            <option value="0">Выберите пункт</option>
+            <option value="1">Пункт №1</option>
+            <option value="2">Пункт №2</option>
+            <option value="3">Пункт №3</option>
+            <option value="4">Пункт №4</option>
+        </select>
+        <hr />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <hr />
+        <input type="submit" value="submit" />
+        <button>Отправить</button>
+    </form>
+</body>
+
+</html>

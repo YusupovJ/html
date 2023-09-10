@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework. Form</title>
+</head>
+
+<body>
+    <h1>Create your profile</h1>
+    <table border="0">
+        <form action="">
+            <tr>
+                <td><label for="f-name">First name</label></td>
+                <td><input type="text" id="f-name" name="f-name"></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="l-name">Last name</label></td>
+                <td><input type="text" id="l-name" name="l-name"></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+
+
+            <tr>
+                <td><label for="standing">Class standing</label></td>
+                <td>
+                    <select name="standing" id="standing">
+                        <option value="0">Freshman</option>
+                        <option value="1">Sophomore</option>
+                    </select>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td rowspan="4">
+                    <p>School</p>
+                </td>
+                <td><input type="radio" name="study" id="a&s">
+                    <label for="a&s">School of Arts & Science</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="study" id="b">
+                    <label for="b">School of Business</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="study" id="et">
+                    <label for="et">School of Engineering Technology</label>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="study" id="hs">
+                    <label for="hs">School of Health Science</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan="3">
+                    <p>Extra</p>
+                </td>
+
+                <td>
+                    <input type="checkbox" name="veteran" id="veteran">
+                    <label for="veteran">Veteran</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="transfer-stud" id="transfer-stud">
+                    <label for="transfer-stud">Transfer student</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="Internat-stud" id="Internat-stud">
+                    <label for="Internat-stud">International student</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="share">Program and <br> Other <br> Information you <br> like to share:</label></td>
+                <td><textarea name="share" id="share" cols="50" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="img">Upload your <br> profile picture <br>(JPG, GIF, PNG <br> or TIF File):</label></td>
+                <td><input name="img" id="img" type="file"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
